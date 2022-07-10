@@ -69,3 +69,31 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+.timeblocks {
+  padding-top: 3px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid;
+  background-color: whitesmoke;
+
+}
+
+#time9am {
+  border: 2px;
+}
+
+h3 {
+  border: 10px;
+  border-color: #06aed5;
+  color: red;
+  font-size: 12px;
+  margin-left: 0;
+  padding-left: 0
+
+}
+.timeblocks textarea {
+  background-color: burlywood;
+  width: 550px;
+  border: #ff6961;
+  border-radius: 2px;
+}
