@@ -104,11 +104,33 @@ if (localStorage.getItem('text9')){
                         
                         if (localStorage.getItem('text5')){
                             document.querySelector('#text5').textContent = JSON.parse(localStorage.getItem('text5'))}
-                        
-                    
-                
-            
-    
+
+                        document.querySelector('#btn6').onclick = function(){
+                                var text6=document.querySelector("#text6").value;
+                                localStorage.setItem('text6', JSON.stringify(text6))
+                                document.querySelector('#text6').textContent = JSON.parse(localStorage.getItem('text6'))
+                            }
+                            
+                            if (localStorage.getItem('text6')){
+                                document.querySelector('#text6').textContent = JSON.parse(localStorage.getItem('text6'))}
+        
+                         document.querySelector('#btn7').onclick = function(){
+                                    var text7=document.querySelector("#text7").value;
+                                    localStorage.setItem('text7', JSON.stringify(text7))
+                                    document.querySelector('#text7').textContent = JSON.parse(localStorage.getItem('text7'))
+                                }
+                                
+                                if (localStorage.getItem('text7')){
+                                    document.querySelector('#text7').textContent = JSON.parse(localStorage.getItem('text7'))}            
+                                   
+                         document.querySelector('#btn8').onclick = function(){
+                                        var text5=document.querySelector("#text8").value;
+                                        localStorage.setItem('text8', JSON.stringify(text8))
+                                        document.querySelector('#text8').textContent = JSON.parse(localStorage.getItem('text8'))
+                                    }
+                                    
+                                    if (localStorage.getItem('text8')){
+                                        document.querySelector('#text8').textContent = JSON.parse(localStorage.getItem('text8'))}
         
     
 
