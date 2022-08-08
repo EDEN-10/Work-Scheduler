@@ -3,20 +3,20 @@ var morningTime = "sky blue"
 var afternoonTime = "orange"
 var textarea = document.querySelector("#text5")
 
-for (var i=9;  i<=17; i++){
+for (var i=9;  i<=20; i++){
 var time = moment()
 console.log(time._d.getHours()) 
 if(time._d.getHours()){
     console.log("true") 
     var  timeSelector =document.querySelector(`#text${i}`);
     var hourId =parseInt(timeSelector.id.substring(4));
-    console.log(hourId)
+    console.log(hourId) 
     if(time._d.getHours() > hourId){
         timeSelector.setAttribute("style", "background-color: #C1B7BB")
     }
     else if(time._d.getHours() < hourId){
         timeSelector.setAttribute("style", "background-color: #C9E7C8")
-    }
+    } 
     
  else{
     timeSelector.setAttribute("style", "background-color: blue")
